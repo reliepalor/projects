@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<header>
+		<title>Palor's Blog</title>
+	</header>
+	<body>	
+		<h1>Welcome to my blog</h1>
+
+		<h3>John Relie Palor</h3>
+			
+		<p><big><b>ADDRESS</b></big> <br> Centro East, Santa Teresita Cagayan</p>
+		
+		<p><big><b>HOBBIES</b></big> <br>
+		 Playing with my cat <br>
+		Hanging out with my girlfriend <br>
+		Watching movies <br>
+		</p>
+
+		<p>
+		<b>Father:</b> Delibert Palor <br>
+		<b>Mother:</b> Ruby Palor
+		</p>
+	
+		<hr>
+
+
+
+		<figure>
+		<p>Favorite Food</p>
+			<img src="jollibee.webp" width="400px" height="300px">
+		<figcaption>Jollibee is my favorite food since i was a kid.</figcaption>
+		</figure>
+
+		
+		<hr>
+
+		<figure>
+		<p>Favorite Sports</p>
+			<img src="basketball.jpg" width="400px">
+		<figcaption>I'm a fan of basketball because of Lebron James.</figcaption>
+		</figure>
+
+		<hr>
+
+		<figure>
+		<p>Favorite Hobby</p>
+			<img src="bike.jpg" width="400px">
+		<figcaption>Riding a bike is like my coping mechanism.</figcaption>
+		</figure>
+
+		<hr>
+
+		<figure>
+		<p>Favorite Place</p>
+			<img src="beach.jpg" width="400px">
+		<figcaption>Beach is the calmest place for me.</figcaption>
+		</figure>
+
+		<hr>
+
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/eBSeCp__xhI?si=JsGU2Szja7RoWDwd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+		</iframe>
+
+		<hr>
+		<h2>Celebrity Crush</h2>
+		<a href="https://en.wikipedia.org/wiki/Jisoo"><big>Jisso</big> </a>
+
+		<hr>
+		<h2>POEM</h2>
+		<pre>
+			"Risk", by Anaïs Nin
+			And then the day came,
+
+			when the risk
+
+			to remain tight
+
+			in a bud
+
+			was more painful
+
+			than the risk
+
+			it took
+
+			to blossom.
+
+A single sentence broken up into 8 small lines, Anaïs Nin’s “Risk”
+ uses a flower as a metaphor, to remind us that there will come a
+ day when the pain of complacency will exceed the pain of actually
+ daring to make a change. The poem serves as an understated call 
+to action — make the change now, no matter how scary.
+		</pre>
+	</body>
+</html>

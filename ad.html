@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    .login-container{
+        border-radius: 5px;
+        width: 300px;
+        padding: 50px;
+        background-color: aliceblue;
+        box-shadow:0 0 5px rgb(0,0 ,0,0.5);
+    }
+    .login-container h2{
+        color: blue;
+        margin-top: 0px;
+        text-align: center;
+    }
+    #form{
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        font-size: 18px;
+    }
+    .input-form{
+        margin-bottom: 1px;
+    }
+    .input-form label{
+        display: block;
+        margin: 1px;
+        color: #555;
+    }
+    .input-form input{
+        width: 250px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        background-color: bisque;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    .form-group focus{
+        outline: none;
+        border-color: #007bff;
+    }
+    .forgot{
+        text-align: center;
+    }
+    .button{
+        width: 200px;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .button:hover{
+        background-color: #1865b7;
+    }
+</style>
+
+
+<body>
+    <div class="login-container">
+        <h2>LOGIN</h2>
+        <form id="form">
+            <div class="input-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username">
+            </div>
+                <br>
+
+            <div class="input-form">
+                <label for="password">Password:</label>
+                <input type="password" id="username" name="username" placeholder="Enter your password">
+            </div>
+            <a href="#" class="forgot" style="text-decoration: none;">Forgot your password?</a> <br>
+            <button class="button">Log in</button>
+        </form>
+    </div>
+        
+
+       
+</body>
+</html>
